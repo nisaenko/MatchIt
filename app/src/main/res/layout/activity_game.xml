@@ -1,0 +1,148 @@
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right">
+
+        <view
+            android:layout_width="80dip"
+            android:layout_height="80dip"
+            class="ca.gbc.mobile.natalliaisayenka.matchit.widget.CardView"
+            android:id="@+id/view"
+            android:background="@drawable/ic_memory_back"
+             />
+
+        <view
+            android:layout_width="80dip"
+            android:layout_height="80dip"
+            class="ca.gbc.mobile.natalliaisayenka.matchit.widget.CardView"
+            android:id="@+id/view2"
+            android:background="@drawable/ic_memory_back"/>
+
+        <view
+            class="ca.gbc.mobile.natalliaisayenka.matchit.widget.CardView"
+            android:layout_width="80dip"
+            android:layout_height="80dip"
+            android:id="@+id/view3"
+            android:background="@drawable/ic_memory_back"
+             />
+
+        <view
+            class="ca.gbc.mobile.natalliaisayenka.matchit.widget.CardView"
+            android:layout_width="80dip"
+            android:layout_height="80dip"
+            android:id="@+id/view4"
+            android:background="@drawable/ic_memory_back"
+             />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right">
+
+        <view
+            class="ca.gbc.mobile.natalliaisayenka.matchit.widget.CardView"
+            android:layout_width="80dip"
+            android:layout_height="80dip"
+            android:id="@+id/view5"
+            android:background="@drawable/ic_memory_back"
+             />
+
+        <view
+            class="ca.gbc.mobile.natalliaisayenka.matchit.widget.CardView"
+            android:layout_width="80dip"
+            android:layout_height="80dip"
+            android:id="@+id/view6"
+            android:background="@drawable/ic_memory_back"
+            />
+
+        <view
+            class="ca.gbc.mobile.natalliaisayenka.matchit.widget.CardView"
+            android:layout_width="80dip"
+            android:layout_height="80dip"
+            android:id="@+id/view7"
+            android:background="@drawable/ic_memory_back"
+             />
+
+        <view
+            class="ca.gbc.mobile.natalliaisayenka.matchit.widget.CardView"
+            android:layout_width="80dip"
+            android:layout_height="80dip"
+            android:id="@+id/view8"
+            android:background="@drawable/ic_memory_back"
+             />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right">
+
+        <view
+            class="ca.gbc.mobile.natalliaisayenka.matchit.widget.CardView"
+            android:layout_width="80dip"
+            android:layout_height="80dip"
+            android:id="@+id/view9"
+            android:background="@drawable/ic_memory_back"
+             />
+
+        <view
+            class="ca.gbc.mobile.natalliaisayenka.matchit.widget.CardView"
+            android:layout_width="80dip"
+            android:layout_height="80dip"
+            android:id="@+id/view10"
+            android:background="@drawable/ic_memory_back"
+             />
+
+        <view
+            class="ca.gbc.mobile.natalliaisayenka.matchit.widget.CardView"
+            android:layout_width="80dip"
+            android:layout_height="80dip"
+            android:id="@+id/view11"
+            android:background="@drawable/ic_memory_back"
+             />
+
+        <view
+            class="ca.gbc.mobile.natalliaisayenka.matchit.widget.CardView"
+            android:layout_width="80dip"
+            android:layout_height="80dip"
+            android:id="@+id/view12"
+            android:background="@drawable/ic_memory_back"
+             />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="80dip"
+        android:layout_height="40dip"
+        android:text="00:00:00"
+        android:id="@+id/chronometer"
+        android:layout_gravity="center_horizontal"/>
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/stop_resume"
+        android:id="@+id/stop_resume"
+        android:onClick="stopResumeMessage" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/main_menu"
+        android:id="@+id/main_menu"
+        android:onClick="mainMenuMessage" />
+
+
+</LinearLayout>
